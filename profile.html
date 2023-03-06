@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manfac Thesis Book</title>
+    <link rel="stylesheet" href="custom-css/menu.css">
+    <link rel="stylesheet" href="custom-css/profile.css">
+    <link rel="stylesheet" href="custom-css/pop-up.css">
+    <link rel="stylesheet" href="custom-css/uploadfile.css">
+    <link rel="stylesheet" href="custom-css/pop-up-education.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Navigation menu -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><strong><span class="first-part">Manfac Thesis</span> <span class="navbar-brand-book">Book</span></strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="publication.html">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link register-button" href="register.html">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link login-button" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+
+    
+      <!-- Profile Page -->
+      <div class="profile-container">
+        <h2 class="profile-header">Profile Information</h2><br><hr>
+        <div class="profile-section">
+          <!-- <h2 class="basic-information">Basic Information</h2> -->
+          <div class="profile-picture">
+            <img src="customer-service.png" alt="Profile Picture">
+          </div>
+          <div class="profile-info">
+            <h2>John Doe</h2>
+            <ul>
+              <li><strong>First Name:</strong> John</li>
+              <li><strong>Last Name:</strong> Doe</li>
+              <li><strong>Sex:</strong> Male</li>
+              <li><strong>Phone Number:</strong> +1-123-456-7890</li>
+              <li><strong>Email:</strong> johndoe@email.com</li>
+              <li><strong>Country:</strong> USA</li>
+              <li><strong>City:</strong> New York</li>
+              <li><strong>Password:</strong> ********</li>
+            </ul>
+            <button class="edit-btn" id="edit-btn">Edit</button>
+          </div>
+        </div>
+        <hr class="seperater">
+      </div>
+      <!-- pop-up form to edit the profile information -->
+      <div class="pop-form-container">
+        <div class="pop-form">
+          <h2 class="pop-form-title">Edit Profile Information</h2>
+          <hr>
+          <form id="edit-form">
+            <div class="form-group">
+              <label for="firstName">First Name:</label>
+              <input type="text" id="firstName" name="firstName" placeholder="Enter first name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="lastName">Last Name:</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Enter last name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="sex">Sex:</label>
+              <select id="sex" name="sex" required>
+                <option value="">Select sex</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="phoneNumber">Phone Number:</label>
+              <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter phone number" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Enter email" required>
+            </div>
+            
+            <div class="form-group select-container">
+              <label for="country">Country:</label>
+              <select id="country" name="country">
+                  <option value="">Select a country</option>
+                  <option value="USA">USA</option>
+                  <option value="Canada">Canada</option>
+                  <option value="Mexico">Mexico</option>
+                  <option value="Brazil">Brazil</option>
+                  <option value="Argentina">Argentina</option>
+                  <option value="Chile">Chile</option>
+                  <option value="Peru">Peru</option>
+                  <option value="Colombia">Colombia</option>
+                  <option value="Ecuador">Ecuador</option>
+                  <option value="Uruguay">Uruguay</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" placeholder="Enter password" required>
+            </div>
+      
+            <div class="form-group">
+              <label for="cover">Cover Image</label>
+              <input type="file" id="cover" name="cover" accept="image/*" required />
+            </div>
+            
+            <div class="form-group btn-container">
+              <button type="submit" id="save-btn">Save</button>
+              <button type="button" class="close-btn" id="close-btn">Close</button>
+            </div>
+          </form>
+          <div class="pop-up-right-side">
+            <h3 class="header-3">Note You Can Change Three Times each Hour on your Profile.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore tenetur animi tempore magnam maiores vitae a necessitatibus mollitia error perspiciatis eligendi, fuga reiciendis sed amet nostrum repudiandae aperiam, sapiente odit!</p>
+            <p class="btn help-btn"><a href="#">Support Team</a></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Education sections will be added here -->
+      <div class="section" id="education-section">
+        <h2>Educational Background</h2>
+        <hr>
+        <div class="profile-info">
+          <ul>
+            <li><span class="label">Institution Name:</span> <span class="value">Harvard University</span></li>
+            <li><span class="label">Degree Type:</span> <span class="value">Bachelor's</span></li>
+            <li><span class="label">Field of Study:</span> <span class="value">Computer Science</span></li>
+            <li><span class="label">Graduation Year:</span> <span class="value">2020</span></li>
+          </ul>
+          <button class="edit-btn" id="education-edit-btn">Edit</button>
+        </div>
+      </div>
+      
+      <div class="pop-form-container-edu education-pop-form">
+        <form action="#" method="POST" class="pop-form">
+          <h2>Edit Educational Information</h2>
+          <hr class="line">
+          <div class="form-group">
+            <label for="institution-name">Institution Name:</label>
+            <input type="text" id="institution-name" name="institution-name">
+          </div>
+          <div class="form-group">
+            <label for="degree-type">Degree Type:</label>
+            <input type="text" id="degree-type" name="degree-type">
+          </div>
+          <div class="form-group">
+            <label for="field-of-study">Field of Study:</label>
+            <input type="text" id="field-of-study" name="field-of-study">
+          </div>
+          <div class="form-group">
+            <label for="graduation-year">Graduation Year:</label>
+            <input type="text" id="graduation-year" name="graduation-year">
+          </div>
+          <div class="form-group">
+            
+            <button type="button" class="save-button">Save</button>
+            <button type="button" class="education-close-btn">Close</button>
+
+          </div>
+        </form>
+      </div>
+      
+      
+       <!--Upload Section Will Be here  -->
+    <div class="upload-section">
+      <div id="upload-form-container">
+        <div class="toggle-button">
+            <button id="toggle-form" class="toggle-form">Upload Document</button>
+        </div>
+      <form id="upload-form" enctype="multipart/form-data">
+        <h2>Fill the Below Form to Upload Document</h2>
+        <hr>
+        <div class="form-input">
+          <label for="title">Title</label>
+          <input type="text" id="title" name="title" placeholder="Enter Title" required />
+        </div>
+        <div class="form-input">
+          <label for="author">Author</label>
+          <input type="text" id="author" name="author" placeholder="Enter Author Name" required />
+        </div>
+        <div class="form-input">
+          <label for="university">University</label>
+          <select name="university" id="filter-university-form">
+            <option value="">--Select--</option>
+            <option value="Civil Service Institute">Civil Service Institute</option>
+            <option value="Gollis University">Gollis University</option>
+            <option value="Admas University">Admas University</option>
+          </select>
+        </div>
+        <div class="form-input">
+          <label for="pdf">PDF</label>
+          <input type="file" id="pdf" name="pdf" accept=".pdf" required />
+        </div>
+        <div class="form-input">
+          <label for="cover">Cover Image</label>
+          <input type="file" id="cover" name="cover" accept="image/*" required />
+        </div>
+        <div class="form-input">
+          <label for="publishedDate">Published Date</label>
+          <input type="date" id="publishedDate" name="publishedDate" required />
+        </div>
+        <div class="form-actions">
+          <button type="submit">Upload</button> <br>
+          <button type="button" id="hide-form">Hide Form</button>
+        </div>
+      </form>
+    </div>
+    <!--  -->
+    <h2 class="main-body-header">Latest List of Thesis Books</h2>
+    <div class="main-body">
+      <!-- left side of the main body -->
+        <div id="document-cards"></div>
+      <!-- right side of the main body -->
+        <!-- <div id="document-search-bar" class="document-search-bar">
+          <div class="document-search-bar">
+            <input type="text" name="search" id="search" placeholder="Search for thesis books...">
+          </div>
+          
+            <div class="document-filters">
+              <div class="filter-university">
+                <label for="university">University:</label> <br>
+              <select name="university" id="filter-university">
+                <option value="">--Select--</option>
+                <option value="university1">Civil Service Institute</option>
+                <option value="university2">Gollis University</option>
+                <option value="university3">Admas University</option>
+              </select>
+              </div>
+              <label for="publication-date">Publication Date:</label>
+              <input type="date" name="publication-date" id="publication-date">
+              <label for="author-name">Author Name:</label>
+              <input type="text" name="author-name" id="author-name">
+            </div>
+            <button type="submit" id="search-button"><i class="search-button"></i>Search</button>
+        </div> -->
+    </div>
+    </div>
+      
+
+
+      
+      
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="custom-js/menu.js"></script>   
+    <script src="custom-js/profile.js"></script>
+    <script src="custom-js/pop-up.js"></script>
+    <script src="custom-js/pop-up-education.js"></script>
+</body>
+</html>

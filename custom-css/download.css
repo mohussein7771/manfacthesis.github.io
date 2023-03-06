@@ -1,0 +1,215 @@
+/* Style for card */
+.card {
+    margin: 100px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .card-image img {
+    height: 100%;
+    width: 200px;
+    object-fit: cover;
+  }
+  
+  /* Style for abstract */
+  .abstract {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Style for like and download buttons */
+  .like-button, .download-button {
+    display: inline-block;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .like-button {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .download-button {
+    background-color: #2ecc71;
+    color: #fff;
+  }
+  
+  .col button {
+    margin-right: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
+  .col button:hover {
+    background-color: #0062cc;
+  }
+  
+  /* Style for preview button */
+  .preview-button {
+    margin-top: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .preview-text {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+#number-of-likes, #number-of-downloads {
+    background-color: #b7d6f3;
+    border-radius: 15px;
+    height: 40px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+  .col {
+    /* background-color: #f2f2f2; */
+    border-radius: 15px;
+    height: 40px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .col p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  
+  .col i {
+    font-size: 20px;
+    margin-right: 5px;
+    color: #333;
+  }
+  
+  #abstract-view {
+    display: none;
+  }
+
+  /* test body to make foote sticky to the bottom */
+  .test-body {
+    height: 100vh;
+    /* background-color: #0062cc; */
+  }
+
+
+  /* similar thesis */
+  #similar-thesis {
+    margin: 80px 40px;
+  }
+  
+
+  .margin-top {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .card-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #number-of-likes,
+  #number-of-downloads {
+    background-color: #F5F5F5;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 15px;
+    width: 100%;
+  }
+  
+  #download-btns {
+    background-color: #007BFF;
+    color: #FFF;
+    padding: 5px 20px;
+    border-radius: 15px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  
+  /* Media queries */
+  @media (max-width: 767px) {
+    .card {
+      flex-direction: column;
+    }
+    
+    .card-image img {
+      width: 1900px;
+      height: auto;
+    }
+    
+    .card-body {
+      padding: 10px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .card-image img {
+      width: 300px;
+    }
+  }
+  
+
+  @media screen and (max-width: 767px) {
+    .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    #number-of-likes,
+    #number-of-downloads {
+      margin-bottom: 10px;
+    }
+    
+    .col {
+      margin-top: 10px;
+    }
+  }
+  

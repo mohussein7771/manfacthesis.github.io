@@ -1,0 +1,40 @@
+.container {
+  margin: 100px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#step-1-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 800px; /* adjust to your desired width */
+  margin: 50px auto; /* adjust top and bottom margin as needed */
+}
+
+#step-2-form {
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  max-width: 800px; /* adjust to your desired width */
+  margin: 50px auto; /* adjust top and bottom margin as needed */
+}
+
+
+form input[type="text"],
+form input[type="email"],
+select, .btn {
+  width: 100%;
+}
+
+.col-md-6 .form-select {
+  width: 100%;
+}
+form select{
+  width: 100px;
+}
+
+

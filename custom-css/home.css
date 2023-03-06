@@ -1,0 +1,258 @@
+#banner {
+    background-color: #fff;
+    padding: 80px 0;
+    margin-bottom: 20px;
+    margin-top: 75px;
+    box-shadow: 0 0 20px rgba(42, 210, 222, 0.1);
+  }
+  @media (max-width: 376px) {
+    #banner {
+        margin-top: 90px;
+    }
+    
+  }
+  
+  #banner h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: -65px;
+  }
+  
+  #banner p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  #banner .btn {
+    border-radius: 50px;
+    margin-bottom: 10px;
+  }
+
+  #banner .btn:hover {
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: #04a0a5;
+  }
+  
+  #banner img {
+    width: 100%;
+    margin-top: 20px;
+    height: 350px;
+  }
+
+  
+  /* when data is read from the database using the PHP */
+  #latest-books {
+    background-color: #ffffff;
+    padding: 50px 0;
+  }
+  
+  #latest-books h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  #latest-books .card {
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #latest-books .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  #latest-books .card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  #latest-books .card-body {
+    padding: 20px;
+  }
+  
+  #latest-books .card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  #latest-books .card-subtitle {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  #latest-books .card-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  #latest-books .btn-download {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #latest-books .btn-download:hover {
+    background-color: #0062cc;
+    border-color: #005cbf;
+  }
+  .card-body {
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    margin-right: 10px;
+    width: 300%;
+  }
+  
+  .card-img {
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9ecef;
+    padding: 0.75rem;
+  }
+  
+  .card-footer small {
+    font-size: 0.875rem;
+  }
+  
+  .card-body .btn {
+    border-radius: 50px;
+    margin-top: 10px;
+  }
+
+  .card-body .btn:hover {
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: #04a0a5;
+  }
+  
+  .card-footer .download-count,
+  .card-footer .like-count {
+    display: inline-block;
+    background-color: #6c757d;
+    color: #fff;
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    margin-right: 0.5rem;
+  }
+
+/* About section */
+/* About Us section */
+/* About Us section */
+#about-us {
+    background-color: #eff1f3;
+    padding: 80px 0;
+  }
+  
+  #about-us .row {
+    align-items: center;
+  }
+  
+  #about-us .about-content {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+  }
+  
+  #about-us h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #212529;
+  }
+  
+  #about-us p {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #212529;
+  }
+  
+  #about-us .btn {
+    font-size: 18px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    transition: all 0.3s;
+  }
+  
+  #about-us .btn:hover {
+    background-color: #04a0a5;
+  }
+  
+  #about-us .about-image {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
+  }
+  
+  #about-us .about-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* call to action section */
+  #cta {
+    background-color: #10c6aa;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  #cta h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  #cta a.btn {
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #10c6aa;
+    border: 3px solid #ffffff;
+
+  }
+
+  #cta a.btn:hover {
+    border: 3px solid #ffffff;
+    color: #fff;
+    background-color: #10c6aa;
+  }
+  
+  
+  
+  

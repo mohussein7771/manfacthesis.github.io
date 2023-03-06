@@ -1,0 +1,150 @@
+/* pop-up form styles */
+
+.pop-form-container {
+    display: none; 
+    justify-content: center; 
+    align-items: center; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0; 
+    top: 0; 
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .pop-form {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 80px;
+    border-radius: 5px;
+    margin-left: 0px;
+  }
+  
+  .close-btn {
+    color: #ffffff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 230px;
+    background-color: #c93333;
+    width: 30%;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .close-btn:hover,
+  .close-btn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .pop-form-title {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .pop-form hr {
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .pop-form form {
+    width: 100%;
+  }
+  
+  .pop-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .pop-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .pop-form .form-group input,
+  .pop-form .form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .pop-form .form-group select option {
+    color: #000;
+  }
+  
+  .pop-form .select-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .pop-form .form-group.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .pop-form #save-btn {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pop-form .help-btn {
+    width: 80%;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .pop-form .help-btn a {
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+  
+  .pop-up-right-side {
+    flex: 1;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pop-up-right-side h3 {
+    margin-top: 0;
+  }
+  
+  .pop-up-right-side p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
